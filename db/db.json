@@ -1,7 +1,12 @@
-
-  [
+{
+  "notes": [
     {
       "title": "Test Title",
       "text": "Test text"
+    },
+    {
+      "title": "title 3",
+      "text": "text 3"
     }
   ]
+}
