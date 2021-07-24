@@ -32,7 +32,7 @@ const getNotes = () =>
       'Content-Type': 'application/json',
     }.then(data => {
       let allNotes = data;
-      document.querySelector("#test").innerHTML = `<p> ${allNotes} </p>`
+      console.log(allNotes);
     })
   });
 
