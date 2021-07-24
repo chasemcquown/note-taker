@@ -25,19 +25,13 @@ const hide = (elem) => {
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
 
-// this function should retreive the notes from our notes.json file and print them to the screen  
 const getNotes = () =>
   fetch('/api/notes', {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
     },
-  }).then(response => {
-    return response.json();
-  }).then(data => {
-    let noteName = data.title;
-    document.querySelector("#test-area").innerHTML = noteName;
-  })
+  });
 
 const saveNote = (note) =>
   fetch('/api/notes', {
