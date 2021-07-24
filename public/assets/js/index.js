@@ -33,6 +33,8 @@ const getNotes = () =>
     },
   });
 
+  console.log(getNotes);
+
 const saveNote = (note) =>
   fetch('/api/notes', {
     method: 'POST',
