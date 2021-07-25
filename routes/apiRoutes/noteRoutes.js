@@ -21,4 +21,24 @@ router.post('/notes', (req, res) => {
     }
 });
 
+// router.delete('/notes/:id', (req, res) => {
+//   const params = [req.params.id];
+//   db.query(sql, params, (err, result) => {
+//     if (err) {
+//       res.status(400).json({ error: res.message });
+//       // checks if anything was deleted
+//     } else if (!result.affectedRows) {
+//       res.json({
+//         message: 'Party not found'
+//       });
+//     } else {
+//       res.json({
+//         message: 'deleted',
+//         changes: result.affectedRows,
+//         id: req.params.id
+//       });
+//     }
+//   });
+// });
+
 module.exports = router;

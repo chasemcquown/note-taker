@@ -1,17 +1,9 @@
 {
   "notes": [
     {
-      "title": "Test Title",
-      "text": "Test text"
-    },
-    {
-      "title": "title 3",
-      "text": "text 3"
-    },
-    {
-      "title": "this assignment sucks",
-      "text": "My brain is to small to figure this out",
-      "id": "2"
+      "title": "Notes go here!",
+      "text": "Test Note"
     }
+
   ]
 }
