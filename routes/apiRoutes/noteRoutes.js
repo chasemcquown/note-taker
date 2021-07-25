@@ -4,7 +4,7 @@ const { validateNote, createNewNote } = require('../../lib/notes');
 
 const notes = require('../../db/db');
 
-router.get('/db', (req, res) => {
+router.get('/notes', (req, res) => {
   let results = notes;
   res.json(results);
 });
