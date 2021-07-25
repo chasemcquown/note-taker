@@ -2,24 +2,18 @@
 
 ## Description
 
-This app allows users to create a note and add adescription to their note to help keep their day structured. 
+This app allows users to create a note and add a description to their note to help keep their day structured.
 
 ## Installation
 
-Navigate to 
+Navigate to https://chasesnotetaker.herokuapp.com/
 
 ## Usage
 
-The user must simply answer the command line prompts. Once finished with the prompts, they can find their team profile in the form of an HTML file within the "dist" folder.
+Simply start by typing in the designating text area and hitting save!
 
 ![](assets/screenshot.png)
-
-[Watch this video for a walkthrough of the application](https://youtu.be/4Hsb7k4P_zM)
 
 ## Contributing
 
 Made with ❤️ by [Chase McQuown]
-
-## Tests
-
-In order to run the tests included in this repo, the user must install jest by running "npm install jest --save-dev" in the command line.
