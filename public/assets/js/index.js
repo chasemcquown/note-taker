@@ -30,9 +30,7 @@ const getNotes = () =>
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
-    }.then(data => {
-      console.log(data);
-    })
+    }
   });
 
   
