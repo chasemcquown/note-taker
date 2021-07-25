@@ -30,13 +30,10 @@ const getNotes = () =>
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
-    }.then(data => {
-      let allNotes = data;
-      console.log(allNotes);
-    })
+    },
   });
 
-
+  
 
 const saveNote = (note) =>
   fetch('/api/notes', {
