@@ -31,6 +31,9 @@ const getNotes = () =>
     headers: {
       'Content-Type': 'application/json',
     }
+    .then(data => {
+      renderNoteList(data);
+    })
   });
 
   
